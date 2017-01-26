@@ -1,6 +1,6 @@
 #$mypuppet=puppet
 
-service{ 'a'	:
+#service{ 'a'	:
 		name=>'puppet',
 		ensure =>stopped,
 		enable =>true,
